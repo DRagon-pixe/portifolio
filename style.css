@@ -8,7 +8,7 @@
     --bege-portifolio: #F1E5CF;
     --verde-portifolio: #789084;
     --cinza-portifolio: #555555;
-    --azul-portifolio: #0E1428;
+    --azul-portifolio: #1A2853;
 }
 
 * {
@@ -17,20 +17,42 @@
     box-sizing: border-box;
 }
 
-.container-grid {
-    width: 80vw;
-    max-width: 1920px;
-    margin: 0px auto;
+body {
+    height: 2115px;
+    width: 1920px;
+}
+
+p {
+    font-size: 20px;
+    color: var(--azul-portifolio);
+}
+
+h1 {
+    font-size: 40px;
+    color: #1A2853;
+}
+
+h2 {
+    font-size: 30px;
+    color: #1A2853;
 }
 
 .banner {
     height: 530px;
+    width: 100%;
+    color: var(--bege-portifolio);
+    display: flex;
+    justify-content: center;
+}
+
+.container-grid {
+    width: 80%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
 }
 
 .sobre {
     height: 800px;
-}
-
-p h2 h1 {
-    font-family: "Ibm-Plax-Sans";
+    width: 80%;
 }
